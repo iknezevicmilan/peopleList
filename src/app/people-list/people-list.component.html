@@ -1,0 +1,15 @@
+<!--<div *ngFor="let person of people">
+    {{ "{" }}
+        "id": {{ person.id }},
+        "firstName": "{{ person.firstName }}",
+        "lastName": "{{ person.lastName }}",
+        "email": "{{ person.email }}"
+    {{ "}" }}
+</div>-->
+<div *ngFor="let person of people">
+    {{ "{" }}
+        "party-number": {{ person['party-number'] }},
+        "given-name": "{{ person['given-name'] }}",
+        "surname": "{{ person['surname'] }}"
+    {{ "}" }}
+</div>
